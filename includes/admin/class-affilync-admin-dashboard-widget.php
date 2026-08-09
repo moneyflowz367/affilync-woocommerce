@@ -98,7 +98,7 @@ class Affilync_Admin_Dashboard_Widget {
             .affilync-stat-value {
                 font-size: 24px;
                 font-weight: 600;
-                color: #0066e6;
+                color: #007a62;
                 display: block;
             }
             .affilync-stat-label {

@@ -318,7 +318,7 @@ class Affilync_Admin_Stats {
                 justify-content: center;
             }
 
-            .stat-icon.conversions { background: #e6f0ff; color: #0066e6; }
+            .stat-icon.conversions { background: #e0faf4; color: #007a62; }
             .stat-icon.revenue { background: #e6fff2; color: #00b359; }
             .stat-icon.commission { background: #fff0e6; color: #ff6600; }
             .stat-icon.average { background: #f0e6ff; color: #7c3aed; }
@@ -384,7 +384,7 @@ class Affilync_Admin_Stats {
 
             .usage-fill {
                 height: 100%;
-                background: linear-gradient(90deg, #0066e6, #00b359);
+                background: linear-gradient(90deg, #007a62, #00b359);
                 border-radius: 5px;
                 transition: width 0.5s ease;
             }

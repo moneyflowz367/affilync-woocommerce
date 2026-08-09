@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                 <table width="600" cellpadding="0" cellspacing="0" style="background-color:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
                     <!-- Header -->
                     <tr>
-                        <td style="background:linear-gradient(135deg,#0066e6 0%,#004bb5 100%);padding:30px;text-align:center;">
+                        <td style="background:linear-gradient(135deg,#007a62 0%,#00d4aa 100%);padding:30px;text-align:center;">
                             <img src="<?php echo esc_url( AFFILYNC_PLUGIN_URL . 'assets/images/logo-white.png' ); ?>" alt="Affilync" style="height:40px;" />
                         </td>
                     </tr>
@@ -72,7 +72,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                                 <tr>
                                     <td align="center">
                                         <a href="<?php echo esc_url( $settings_url ?? admin_url( 'admin.php?page=affilync-settings' ) ); ?>"
-                                           style="display:inline-block;background:#0066e6;color:#ffffff;padding:14px 32px;text-decoration:none;border-radius:6px;font-size:16px;font-weight:600;">
+                                           style="display:inline-block;background:#007a62;color:#ffffff;padding:14px 32px;text-decoration:none;border-radius:6px;font-size:16px;font-weight:600;">
                                             <?php esc_html_e( 'View Dashboard', 'affilync-woocommerce' ); ?>
                                         </a>
                                     </td>
@@ -103,7 +103,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                                 <?php esc_html_e( 'Sent by Affilync for WooCommerce', 'affilync-woocommerce' ); ?>
                             </p>
                             <p style="margin:0;color:#718096;font-size:12px;">
-                                <a href="<?php echo esc_url( $site_url ); ?>" style="color:#0066e6;text-decoration:none;"><?php echo esc_html( $site_name ); ?></a>
+                                <a href="<?php echo esc_url( $site_url ); ?>" style="color:#007a62;text-decoration:none;"><?php echo esc_html( $site_name ); ?></a>
                             </p>
                         </td>
                     </tr>

@@ -2,7 +2,7 @@
  * Affilync WooCommerce Admin Styles
  *
  * Design tokens from Affilync brand:
- * --affilync-primary: #0066e6 (Deep Blue)
+ * --affilync-primary: #007a62 (Teal 700 — light admin ground needs the dark step)
  * --affilync-success: #00ff88 (Neon Green)
  * --affilync-warning: #ffcc00 (Amber)
  * --affilync-error: #ff3366 (Coral)
@@ -10,9 +10,9 @@
  */
 
 :root {
-    --affilync-primary: #0066e6;
-    --affilync-primary-light: #3385eb;
-    --affilync-primary-dark: #0052b3;
+    --affilync-primary: #007a62;
+    --affilync-primary-light: #00d4aa;
+    --affilync-primary-dark: #004c3d;
     --affilync-success: #00cc6e;
     --affilync-warning: #e6b800;
     --affilync-error: #cc0033;

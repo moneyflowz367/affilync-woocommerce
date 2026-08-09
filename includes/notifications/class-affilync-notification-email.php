@@ -391,7 +391,7 @@ class Affilync_Notification_Email {
         $logo_url  = AFFILYNC_PLUGIN_URL . 'assets/images/logo.png';
 
         $header = sprintf(
-            '<div style="background:#0066e6;padding:20px;text-align:center;">
+            '<div style="background:#007a62;padding:20px;text-align:center;">
                 <img src="%s" alt="Affilync" style="height:40px;">
             </div>',
             esc_url( $logo_url )
@@ -410,7 +410,7 @@ class Affilync_Notification_Email {
         switch ( $template ) {
             case 'connected':
                 $content = sprintf(
-                    '<h2>%s</h2><p>%s</p><p><a href="%s" style="background:#0066e6;color:#fff;padding:12px 24px;text-decoration:none;border-radius:4px;">%s</a></p>',
+                    '<h2>%s</h2><p>%s</p><p><a href="%s" style="background:#007a62;color:#fff;padding:12px 24px;text-decoration:none;border-radius:4px;">%s</a></p>',
                     __( 'Successfully Connected!', 'affilync-woocommerce' ),
                     __( 'Your WooCommerce store is now connected to Affilync. You can start tracking affiliate conversions.', 'affilync-woocommerce' ),
                     esc_url( admin_url( 'admin.php?page=affilync-settings' ) ),
@@ -434,7 +434,7 @@ class Affilync_Notification_Email {
 
             case 'usage-warning':
                 $content = sprintf(
-                    '<h2>%s</h2><p>%s</p><p>%s: <strong>%d%%</strong></p><p><a href="%s" style="background:#0066e6;color:#fff;padding:12px 24px;text-decoration:none;border-radius:4px;">%s</a></p>',
+                    '<h2>%s</h2><p>%s</p><p>%s: <strong>%d%%</strong></p><p><a href="%s" style="background:#007a62;color:#fff;padding:12px 24px;text-decoration:none;border-radius:4px;">%s</a></p>',
                     __( 'Usage Warning', 'affilync-woocommerce' ),
                     __( 'You are approaching your plan limits. Consider upgrading to continue tracking conversions.', 'affilync-woocommerce' ),
                     __( 'Current Usage', 'affilync-woocommerce' ),
